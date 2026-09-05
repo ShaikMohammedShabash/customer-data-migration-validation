@@ -1,0 +1,5 @@
+customer_id,source_name,target_name,source_email,target_email,source_phone,target_phone,source_city,target_city,source_status,target_status,source_income,target_income
+1004,Sneha Reddy,Sneha Reddy,sneha.reddy@gmail.com,sneha.reddy@gmail.com,9012345678,9012345678,Hyderabad,Hyderbad,Active,Active,71000,71000
+1006,Neha Gupta,Neha Gupta,neha.gupta@gmail.com,,9876501234,9876501234,Pune,Pune,Active,Active,49000,49000
+1008,Anjali Mehta,Anjali Mehta,anjali.mehta@gmail.com,anjali.mehta@gmail.com,9090909090,909090909,Kolkata,Kolkata,Active,Active,68000,68000
+1012,Meera Iyer,Meera Iyer,meera.iyer@gmail.com,meera.iyer@gmail.com,9888888888,9888888888,Chennai,Chennai,Active,Active,73000,37000

@@ -1,0 +1,9 @@
+column_name,data_type,business_definition,mandatory,validation_rule
+customer_id,Integer,Unique customer identifier,Yes,Primary business key
+customer_name,Text,Customer full name,Yes,Trim whitespace
+email,Text,Customer email address,Yes,Mandatory; valid email format
+phone,Text,10-digit customer phone number,Yes,Exactly 10 numeric digits
+city,Text,Customer city,Yes,Reference/master-data controlled
+signup_date,Date,Customer registration date,Yes,YYYY-MM-DD
+status,Text,Customer account status,Yes,"Allowed: ACTIVE, INACTIVE"
+annual_income,Integer,Annual customer income,Yes,Non-negative numeric value

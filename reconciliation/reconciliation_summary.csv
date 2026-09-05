@@ -1,0 +1,14 @@
+metric,source_value,status
+Source row count,15,PASS
+Target row count,16,FAIL
+Row count variance,1,FAIL
+Source distinct customer IDs,15,PASS
+Target distinct customer IDs,15,PASS
+Duplicate target IDs,1,FAIL
+NULL records,1,FAIL
+Invalid phone records,1,FAIL
+Invalid status values,0,PASS
+Missing target IDs,0,PASS
+Extra target IDs,0,PASS
+Field-level mismatch records,4,FAIL
+Whitespace issues,1,FAIL
