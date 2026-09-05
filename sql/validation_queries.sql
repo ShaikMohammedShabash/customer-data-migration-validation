@@ -29,7 +29,7 @@ WHERE customer_id IS NULL
 SELECT *
 FROM customers_target
 WHERE LENGTH(phone) <> 10
-   OR phone NOT GLOB '[0-9]*';
+   OR phone GLOB '*[^0-9]*';
 
 -- 5. Invalid status values
 SELECT DISTINCT status
